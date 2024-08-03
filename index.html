@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+<link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+                
+<script src="javascript.js" defer></script>
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="card">
+  <div class="container">
+    <form>
+      <div class="form_container">
+          <div class="block">
+            <label for="day">
+             DIA
+            </label>
+            <input  type="number" placeholder="DD" id="day">
+            <small></small>
+          </div>
+          <div class="block">
+            <label for="month">
+            MES
+            </label>
+        <input type="number" placeholder="MM" id="month">
+        <small></small>
+      </div>
+      <div class="block">
+        <label for="year">
+          AÑO
+        </label>
+        <input type="number" placeholder="AAAA" id="year">
+        <small></small>
+      </div>
+      </div>
+      <div class="submit_block">
+        <hr>
+        <br><br><br>
+        <button class="btn">
+          calcular
+        </button>      
+      </div>
+    </form>
+    <div class="output">
+      <h1><span id="YY">--</span>&nbsp;&nbsp;&nbsp;AÑOS</h1>
+      <h1><span id="MM">--</span>&nbsp;&nbsp;&nbsp;MESES</h1>
+      <h1><span id="DD">--</span>&nbsp;&nbsp;&nbsp;DIAS</h1>
+    </div>
+  </div>
+  </div>
+</body>
+</html>  
